@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <math.h>
-#include <"myLib.h">
+#include "myLib.h"
 
 int asciiBinaryToInt(char *s) {
     int iResult=0, iExp=0, iExpCount=0, iMult=0;
